@@ -1,2 +1,4 @@
 # common-animation
-Common CSS3 animation
+
+* npm install
+* gulp
