@@ -1,0 +1,13 @@
+.idea
+Thumbs.db
+/.project
+
+/uploads
+!/uploads/website
+/doc
+/app/config/db.local.php
+/app/runtime
+/node_modules
+/web/css/*.css
+!/web/css/site.css
+!/web/css/jquery.bxslider.min.css
