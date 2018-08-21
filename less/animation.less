@@ -1,0 +1,46 @@
+@import "css3.less";
+
+.ease-out {
+  overflow: hidden;
+  img {
+    box-sizing: border-box;
+    width: 100%;
+    &:hover {
+      .carousel-transform-matrix();
+      .carousel-transition-ease-out();
+    }
+  }
+}
+
+.box-shadow {
+  overflow: hidden;
+  &:hover {
+    .main-box-shadow;
+    .main-linear;
+  }
+  img {
+    width: 100%;
+    display: block;
+  }
+}
+
+.box-cover {
+  position: relative;
+  .box-cover-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    .box-shadow-cover();
+    &:hover {
+      .box-shadow-disperse();
+    }
+  }
+  img {
+    width: 100%;
+    display: block;
+  }
+}
